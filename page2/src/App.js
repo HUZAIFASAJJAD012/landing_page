@@ -1,13 +1,17 @@
+import Carusal from "./screens/carusal";
+import Navbar from "./screens/navbar";
 
 function App() {
   return (
     <div>
 
    <div class="row ">
-Hello sir 
- </div>
+
+   </div>
 
    <div class="row " style={{justifyContent:"center",alignItems:"center"}}>
+<Carusal/>
+<Navbar/>
 
    <div class="col ">
 
