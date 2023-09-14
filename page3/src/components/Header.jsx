@@ -131,7 +131,7 @@ const Header = () => {
                 alt="headerImg"
                 style={{ 
                     width: "90%", 
-                    marginBottom: -85,
+                    marginBottom: -100,
                 }}
                 />
             </Box>
