@@ -1,32 +1,21 @@
-import Carusal from "./screens/carusal";
-import Navbar from "./screens/navbar";
-import Card from "./screens/cards";
+import Brand from "./components/Brand/Brand";
+import Intro from "./components/Intro/Intro";
+import Services from "./components/Services/Services";
+import Specs from "./components/Specs/Specs";
+import Overview from "./components/Overview/Overview";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>
-
-   <div class="row ">
-
-   </div>
-
-   <div class="row " style={{justifyContent:"center",alignItems:"center"}}>
-   <Carusal/>
-<Navbar/>
-
-
-
-</div> 
-
-<div class="row ">
-
-<Card/>
-
-</div>
-
-
-
-    </div>
+    <>
+   
+    <Intro />
+      <Brand />
+      <Services />
+      <Specs />
+      <Overview />
+      <Footer />
+    </>
   );
 }
 
